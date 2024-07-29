@@ -5,6 +5,7 @@ const logUserIn = (req, res, handleErr) => {
   const password = req.body.password;
 
   // Check if the user exists
+  
   DB.update();
   const user = DB.users.find((user) => user.username === username);
 
